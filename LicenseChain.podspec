@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
 
   spec.homepage     = "https://github.com/LicenseChain/LicenseChain-iOS-SDK"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
-  spec.author       = { "LicenseChain Team" => "support@licensechain.com" }
+  spec.author       = { "LicenseChain Team" => "support@licensechain.app" }
   
   spec.platform     = :ios, "12.0"
   spec.swift_version = "5.0"
