@@ -1,4 +1,4 @@
-# LicenseChain iOS SDK
+﻿# LicenseChain iOS SDK
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![iOS](https://img.shields.io/badge/iOS-12.0+-blue.svg)](https://developer.apple.com/ios/)
@@ -7,18 +7,18 @@
 
 Official iOS SDK for LicenseChain - Secure license management for iOS applications.
 
-## 🚀 Features
+## ðŸš€ Features
 
-- **🔐 Secure Authentication** - User registration, login, and session management
-- **📜 License Management** - Create, validate, update, and revoke licenses
-- **🛡️ Hardware ID Validation** - Prevent license sharing and unauthorized access
-- **🔔 Webhook Support** - Real-time license events and notifications
-- **📊 Analytics Integration** - Track license usage and performance metrics
-- **⚡ High Performance** - Optimized for iOS runtime
-- **🔄 Async Operations** - Non-blocking HTTP requests and data processing
-- **🛠️ Easy Integration** - Simple API with comprehensive documentation
+- **ðŸ” Secure Authentication** - User registration, login, and session management
+- **ðŸ“œ License Management** - Create, validate, update, and revoke licenses
+- **ðŸ›¡ï¸ Hardware ID Validation** - Prevent license sharing and unauthorized access
+- **ðŸ”” Webhook Support** - Real-time license events and notifications
+- **ðŸ“Š Analytics Integration** - Track license usage and performance metrics
+- **âš¡ High Performance** - Optimized for iOS runtime
+- **ðŸ”„ Async Operations** - Non-blocking HTTP requests and data processing
+- **ðŸ› ï¸ Easy Integration** - Simple API with comprehensive documentation
 
-## 📦 Installation
+## ðŸ“¦ Installation
 
 ### Method 1: CocoaPods (Recommended)
 
@@ -50,7 +50,7 @@ dependencies: [
 2. Add the framework to your Xcode project
 3. Link the framework in your target's "Frameworks and Libraries"
 
-## 🚀 Quick Start
+## ðŸš€ Quick Start
 
 ### Basic Setup
 
@@ -203,7 +203,7 @@ Task {
 }
 ```
 
-## 📚 API Reference
+## ðŸ“š API Reference
 
 ### LicenseChainClient
 
@@ -309,7 +309,7 @@ func trackEvent(_ eventName: String, properties: [String: Any]) async throws
 func getAnalytics(timeRange: String) async throws -> Analytics
 ```
 
-## 🔧 Configuration
+## ðŸ”§ Configuration
 
 ### Info.plist
 
@@ -369,7 +369,7 @@ let config = LicenseChainConfig(
 )
 ```
 
-## 🛡️ Security Features
+## ðŸ›¡ï¸ Security Features
 
 ### Hardware ID Protection
 
@@ -397,7 +397,7 @@ let isValid = try await licenseClient.validateHardwareId(licenseKey: licenseKey,
 - Expiration checking
 - Feature-based access control
 
-## 📊 Analytics and Monitoring
+## ðŸ“Š Analytics and Monitoring
 
 ### Event Tracking
 
@@ -443,7 +443,7 @@ Task {
 }
 ```
 
-## 🔄 Error Handling
+## ðŸ”„ Error Handling
 
 ### Custom Error Types
 
@@ -476,7 +476,7 @@ let config = LicenseChainConfig(
 )
 ```
 
-## 🧪 Testing
+## ðŸ§ª Testing
 
 ### Unit Tests
 
@@ -501,7 +501,7 @@ func testIntegration() async throws {
 }
 ```
 
-## 📝 Examples
+## ðŸ“ Examples
 
 See the `Examples/` directory for complete examples:
 
@@ -509,7 +509,7 @@ See the `Examples/` directory for complete examples:
 - `AdvancedFeaturesViewController.swift` - Advanced features and configuration
 - `WebhookIntegrationViewController.swift` - Webhook handling
 
-## 🤝 Contributing
+## ðŸ¤ Contributing
 
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
@@ -521,18 +521,18 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 4. Build: `xcodebuild -scheme LicenseChain build`
 5. Test: `xcodebuild -scheme LicenseChain test`
 
-## 📄 License
+## ðŸ“„ License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🆘 Support
+## ðŸ†˜ Support
 
 - **Documentation**: [https://docs.licensechain.app/ios](https://docs.licensechain.app/ios)
 - **Issues**: [GitHub Issues](https://github.com/LicenseChain/LicenseChain-iOS-SDK/issues)
 - **Discord**: [LicenseChain Discord](https://discord.gg/licensechain)
 - **Email**: support@licensechain.app
 
-## 🔗 Related Projects
+## ðŸ”— Related Projects
 
 - [LicenseChain Android SDK](https://github.com/LicenseChain/LicenseChain-Android-SDK)
 - [LicenseChain macOS SDK](https://github.com/LicenseChain/LicenseChain-macOS-SDK)
@@ -540,4 +540,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Made with ❤️ for the iOS community**
+**Made with â¤ï¸ for the iOS community**
+
+
+## API Endpoints
+
+All endpoints automatically use the /v1 prefix when connecting to https://api.licensechain.app.
+
+### Base URL
+- **Production**: https://api.licensechain.app/v1\n- **Development**: https://api.licensechain.app/v1\n\n### Available Endpoints\n\n| Method | Endpoint | Description |\n|--------|----------|-------------|\n| GET | /v1/health | Health check |\n| POST | /v1/auth/login | User login |\n| POST | /v1/auth/register | User registration |\n| GET | /v1/apps | List applications |\n| POST | /v1/apps | Create application |\n| GET | /v1/licenses | List licenses |\n| POST | /v1/licenses/verify | Verify license |\n| GET | /v1/webhooks | List webhooks |\n| POST | /v1/webhooks | Create webhook |\n| GET | /v1/analytics | Get analytics |\n\n**Note**: The SDK automatically prepends /v1 to all endpoints, so you only need to specify the path (e.g., /auth/login instead of /v1/auth/login).
+
