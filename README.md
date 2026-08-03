@@ -7,15 +7,15 @@
 
 Official iOS SDK for LicenseChain - Secure license management for iOS applications.
 
-## ðŸš€ Features
+## 🚀 Features
 
 - **ðŸ” Secure Authentication** - User registration, login, and session management
-- **ðŸ“œ License Management** - Create, validate, update, and revoke licenses
+- **📜 License Management** - Create, validate, update, and revoke licenses
 - **ðŸ›¡ï¸ Hardware ID Validation** - Prevent license sharing and unauthorized access
-- **ðŸ”” Webhook Support** - Real-time license events and notifications
-- **ðŸ“Š Analytics Integration** - Track license usage and performance metrics
+- **🔔 Webhook Support** - Real-time license events and notifications
+- **📊 Analytics Integration** - Track license usage and performance metrics
 - **âš¡ High Performance** - Optimized for iOS runtime
-- **ðŸ”„ Async Operations** - Non-blocking HTTP requests and data processing
+- **🔄 Async Operations** - Non-blocking HTTP requests and data processing
 - **ðŸ› ï¸ Easy Integration** - Simple API with comprehensive documentation
 
 ## License assertion JWT (RS256 + JWKS)
@@ -28,7 +28,7 @@ Successful **`POST /v1/licenses/verify`** may include **`license_token`**, **`li
 
 **iOS:** In-process verification is supported when JOSESwift is linked per this SDK. See [THIN_CLIENT_PARITY](https://docs.licensechain.app/).
 
-## ðŸ“¦ Installation
+## 📦 Installation
 
 ### Method 1: CocoaPods (Recommended)
 
@@ -60,7 +60,7 @@ dependencies: [
 2. Add the framework to your Xcode project
 3. Link the framework in your target's "Frameworks and Libraries"
 
-## ðŸš€ Quick Start
+## 🚀 Quick Start
 
 ### Basic Setup
 
@@ -213,7 +213,7 @@ Task {
 }
 ```
 
-## ðŸ“š API Reference
+## 📚 API Reference
 
 ### LicenseChainClient
 
@@ -319,7 +319,7 @@ func trackEvent(_ eventName: String, properties: [String: Any]) async throws
 func getAnalytics(timeRange: String) async throws -> Analytics
 ```
 
-## ðŸ”§ Configuration
+## 🔧 Configuration
 
 ### Info.plist
 
@@ -407,7 +407,7 @@ let isValid = try await licenseClient.validateHardwareId(licenseKey: licenseKey,
 - Expiration checking
 - Feature-based access control
 
-## ðŸ“Š Analytics and Monitoring
+## 📊 Analytics and Monitoring
 
 ### Event Tracking
 
@@ -453,7 +453,7 @@ Task {
 }
 ```
 
-## ðŸ”„ Error Handling
+## 🔄 Error Handling
 
 ### Custom Error Types
 
@@ -486,7 +486,7 @@ let config = LicenseChainConfig(
 )
 ```
 
-## ðŸ§ª Testing
+## 🧪 Testing
 
 ### Unit Tests
 
@@ -531,18 +531,18 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 4. Build: `xcodebuild -scheme LicenseChain build`
 5. Test: `xcodebuild -scheme LicenseChain test`
 
-## ðŸ“„ License
+## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## ðŸ†˜ Support
+## 🆘 Support
 
 - **Documentation**: [https://docs.licensechain.app/ios](https://docs.licensechain.app/ios)
 - **Issues**: [GitHub Issues](https://github.com/LicenseChain/LicenseChain-iOS-SDK/issues)
 - **Discord**: [LicenseChain Discord](https://discord.gg/licensechain)
 - **Email**: support@licensechain.app
 
-## ðŸ”— Related Projects
+## 🔗 Related Projects
 
 - [LicenseChain Android SDK](https://github.com/LicenseChain/LicenseChain-Android-SDK)
 - [LicenseChain macOS SDK](https://github.com/LicenseChain/LicenseChain-macOS-SDK)
