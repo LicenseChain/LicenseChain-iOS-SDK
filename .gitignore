@@ -191,3 +191,4 @@ CLAUDE.md
 .vscode/
 *.swp
 *.swo
+*.xcuserdata

@@ -7,7 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.0.1] - 2026-10-10
 
-- Public SDK surface licensed under Elastic License 2.0 (ELv2).
-- Repository hygiene: `ROADMAP.md`, `CHANGELOG.md`, and `.gitignore` aligned for contributor onboarding.
-- Repaired corrupted `CHANGELOG.md` (null-byte file) and restored Keep a Changelog structure.
+- Relicensed public surface under Elastic License 2.0 (ELv2).
+- Raised Swift tools version to 5.9 and minimum iOS platform to 15.0.
+- Repaired corrupted `CHANGELOG.md` (null-byte file) and added Dependabot for GitHub Actions.
+- Build/test requires macOS with Xcode; Linux CI cannot run `xcodebuild`/`swift`.
 
+## [1.0.0] - 2026-04-06
+
+- Initial public SDK surface with repository documentation kit.
