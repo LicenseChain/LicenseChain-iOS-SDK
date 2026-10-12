@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.2] - 2026-10-12
+
+- Synced LicenseChain.podspec to Elastic-2.0, iOS 15, Swift 5.9, and tag v1.0.2.
+
+# Changelog
+
 All notable changes to this SDK are documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),

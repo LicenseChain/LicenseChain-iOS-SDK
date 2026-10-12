@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "LicenseChain"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "Official iOS SDK for LicenseChain - Secure license management for iOS applications"
   spec.description  = <<-DESC
                    LicenseChain iOS SDK provides secure license management for iOS applications.
