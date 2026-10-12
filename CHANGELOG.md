@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.3] - 2026-10-12
+
+- Renamed CocoaPods pod to `LicenseChainiOS` to avoid iOS/macOS trunk name collision.
+
+# Changelog
+
 ## [1.0.2] - 2026-10-12
 
 - Synced LicenseChain.podspec to Elastic-2.0, iOS 15, Swift 5.9, and tag v1.0.2.
