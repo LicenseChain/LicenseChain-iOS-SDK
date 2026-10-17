@@ -8,7 +8,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 - Published CocoaPods trunk pod `LicenseChainiOS` version 1.0.3 (tag v1.0.3).
-- Published CocoaPods trunk pod `LicenseChainiOS` version 1.0.3 (tag `v1.0.3`).
 - Fixed SPM CI compile path: AnyCodable metadata encoding, JOSESwift `Verifier(key:)`, Utils map typing, and `.macOS(.v13)` host platform for `swift build`.
 
 ## [1.0.3] - 2026-10-12
