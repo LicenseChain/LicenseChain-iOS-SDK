@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/license-Elastic--2.0-blue.svg)](LICENSE)
 [![iOS](https://img.shields.io/badge/iOS-12.0+-blue.svg)](https://developer.apple.com/ios/)
 [![Swift](https://img.shields.io/badge/Swift-5.0+-orange.svg)](https://swift.org/)
-[![CocoaPods](https://img.shields.io/badge/CocoaPods-not%20published-lightgrey.svg)](https://github.com/LicenseChain/LicenseChain-iOS-SDK)
+[![CocoaPods](https://img.shields.io/cocoapods/v/LicenseChainiOS.svg)](https://cocoapods.org/pods/LicenseChainiOS)
 [![CI](https://github.com/LicenseChain/LicenseChain-iOS-SDK/actions/workflows/ci.yml/badge.svg)](https://github.com/LicenseChain/LicenseChain-iOS-SDK/actions/workflows/ci.yml)
 
 Official iOS SDK for LicenseChain - Secure license management for iOS applications.
@@ -36,7 +36,7 @@ Successful **`POST /v1/licenses/verify`** may include **`license_token`**, **`li
 Add to your `Podfile`:
 
 ```ruby
-pod 'LicenseChain', '~> 1.0'
+pod 'LicenseChainiOS', '~> 1.0.3'
 ```
 
 Then run:
