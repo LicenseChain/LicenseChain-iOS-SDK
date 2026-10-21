@@ -21,4 +21,5 @@
 
 ## Ecosystem Notes
 
+- Local Linux hosts have no `swift` / Xcode toolchain; validate via macOS CI (`swift build`) or an Xcode host.
 - CI uses host `swift build` on macOS runners; full device/simulator coverage still needs Xcode destinations.
